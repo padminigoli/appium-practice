@@ -15,7 +15,6 @@ public class Base {
 		File f = new File("src");
 		File fs= new File(f,"ApiDemos-debug.apk");
 		
-		
 		DesiredCapabilities cap= new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "padminiemulator");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
